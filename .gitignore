@@ -1,0 +1,9 @@
+target
+.DS_Store
+__pycache__
+.idea
+.venv
+.vscode
+.python-version
+.python-virtualenv
+*.so

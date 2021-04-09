@@ -1,0 +1,23 @@
+[package]
+name = "experiments"
+version = "0.0.1"
+authors = ["Edward Wright <edward.wright@vortexa.com>"]
+edition = "2018"
+
+[dependencies]
+numpy = "0.13.0"
+geojson = { version = "0.22.0", features = ["geo-types"] }
+geo-types = "0.7.1"
+geo = "0.17.1"
+rayon = "1.5.0"
+ndarray = "0.14.0"
+pyo3 = "0.13.2"
+
+[lib]
+name = "pip"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
