@@ -1,6 +1,6 @@
 # Rust-Python Integration
 
-An example for calling Rust code from Python, passing NumPy data and leveraging threads.
+An example for calling Rust code from Python, passing NumPy data and leveraging threads. This code is related to [this blog post](https://www.vortexa.com/insight/integrating-rust-into-python).
 
 The code has been tested using Rust 1.51.0 and Python 3.7.9 on macOS Catalina.
 
